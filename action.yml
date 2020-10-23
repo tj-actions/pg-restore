@@ -15,12 +15,13 @@ inputs:
   restore_pre_args:
     description: 'Pre argument'
     required: true
-    default: '-Fc -j 8'
+    default: '-Fc -j 8 -O'
 
 runs:
   using: 'composite'
   steps:
-    - run: pg_restore "${{ inputs.restore_pre_args }}" -d "${{ inputs.database_url }}" "${{ inputs.backup_file }}"
+    - run: |
+        pg_restore "${{ inputs.restore_pre_args }}" -d "${{ inputs.database_url }}" "${{ inputs.backup_file }}"
       shell: bash
 branding:
   icon: hard-drive
