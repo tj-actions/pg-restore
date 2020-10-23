@@ -1,0 +1,17 @@
+name: Postgres Backup Restore
+description: Manage a Postgres Backups and Restore
+author: tj-actions
+inputs:
+  token:
+    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+    required: true
+    default: ${{ github.token }}
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
+branding:
+  icon: hard-drive
+  color: green
