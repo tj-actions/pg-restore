@@ -20,7 +20,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: pg_restore "$INPUT_RESTORE_PRE_ARGS" -d "$INPUT_DATABASE_URL" "$INPUT_BACKUP_FILE"
+    - run: pg_restore "${{ inputs.restore_pre_args }}" -d "${{ inputs.database_url }}" "${{ inputs.backup_file }}"
       shell: bash
 branding:
   icon: hard-drive
