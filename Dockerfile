@@ -4,8 +4,6 @@ LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
 RUN apk add -U bash
 
-RUN gpg --version
-
 COPY main.sh /main.sh
 RUN chmod +x /main.sh
 
