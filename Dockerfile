@@ -1,8 +1,8 @@
-FROM alpine:3.12
+ARG POSTGRES_VERSION=${INPUT_POSTGRES_VERSION:-9.6}
+
+FROM postgres:$POSTGRES_VERSION
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
-
-RUN apk add -U bash
 
 COPY main.sh /main.sh
 RUN chmod +x /main.sh
