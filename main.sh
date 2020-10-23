@@ -2,6 +2,6 @@
 
 set -e
 
-pg_restore -Fd -j 8 "$INPUT_BACKUP_FILE" "$INPUT_DATABASE_URL"
+pg_restore -Fd --dbname="$INPUT_DATABASE_URL" -j 8 "$INPUT_BACKUP_FILE"
 
 
