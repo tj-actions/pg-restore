@@ -12,6 +12,10 @@ inputs:
   backup_file:
     description: 'Backup file name'
     required: true
+  restore_pre_args:
+    description: 'Pre argument'
+    required: true
+    default: '-Fc -j 8'
 
 runs:
   using: 'docker'
