@@ -6,12 +6,19 @@ inputs:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
     default: ${{ github.token }}
+  database_url:
+    description: 'Database URL'
+    required: true
+  backup_file:
+    description: 'Backup file name'
+    required: true
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
+  entrypoint: '/main.sh'
+  post-entrypoint: '/cleanup.sh'
+  post-if: 'success()'
 branding:
   icon: hard-drive
   color: green

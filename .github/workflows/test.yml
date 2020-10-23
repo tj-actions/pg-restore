@@ -3,17 +3,40 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   test:
     runs-on: ubuntu-latest
     name: Test verify-changed-files
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_USER: test_user
+          POSTGRES_PASSWORD: test_user_password
+          POSTGRES_DB: testdb
+        ports:
+          - 5432:5432
+        # needed because the postgres container does not provide a healthcheck
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
+      - name: Run database backup restore test.
+        uses: ./
+        with:
+          database_url: "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB"
+          backup_file: "backups/backup.dump"
+        env:
+          POSTGRES_USER: test_user
+          POSTGRES_HOST: localhost
+          POSTGRES_PORT: 5432
+          POSTGRES_PASSWORD: test_user_password
+          POSTGRES_DB: testdb
