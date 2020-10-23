@@ -18,8 +18,7 @@ inputs:
     default: '-Fc -j 8'
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
   entrypoint: '/main.sh'
   post-entrypoint: '/cleanup.sh'
   post-if: 'success()'

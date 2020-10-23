@@ -1,6 +1,4 @@
-ARG POSTGRES_VERSION=${INPUT_POSTGRES_VERSION:-9.6}
-
-FROM postgres:$POSTGRES_VERSION
+FROM alpine:3.12
 
 LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
