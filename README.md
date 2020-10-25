@@ -47,7 +47,7 @@ Add action to .github/workflows
 Features
 --------
 
-* TODO
+* Restore a sql backup using psql.
 
 
 Credits
