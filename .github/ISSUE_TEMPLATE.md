@@ -1,4 +1,4 @@
-* postgres-backup-restore:
+* postgres-restore:
 
 ### Description
 

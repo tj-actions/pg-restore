@@ -1,4 +1,4 @@
-postgres-backup-restore
+postgres-restore
 -----------------------
 
 Manage Restoring a Postgres Backup using psql.
@@ -25,7 +25,7 @@ Add action to .github/workflows
     steps:
       - uses: actions/checkout@v2
       - name: Postgres Backup Restore
-        uses: tj-actions/postgres-backup-restore@v1
+        uses: tj-actions/postgres-restore@v1
         with:
           database_url: "postgres://test_user:test_user_password@localhost:5432/testdb"
           backup_file: "backups/backup.sql"
@@ -60,7 +60,7 @@ This package was created with [Cookiecutter](https://github.com/cookiecutter/coo
 Report Bugs
 -----------
 
-Report bugs at https://github.com/tj-actions/postgres-backup-restore/issues.
+Report bugs at https://github.com/tj-actions/postgres-restore/issues.
 
 If you are reporting a bug, please include:
 

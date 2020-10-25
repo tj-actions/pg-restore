@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Test postgres-backup-restore
+    name: Test postgres-restore
     services:
       postgres:
         image: postgres:9.6
