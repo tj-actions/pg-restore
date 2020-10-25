@@ -21,7 +21,7 @@ runs:
   using: 'composite'
   steps:
     - run: |
-        pg_restore "${{ inputs.restore_pre_args }}" -d "${{ inputs.database_url }}" "${{ inputs.backup_file }}"
+        psql -d "${{ inputs.database_url }}" "${{ inputs.backup_file }}"
       shell: bash
 branding:
   icon: hard-drive
