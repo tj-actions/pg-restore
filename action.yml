@@ -15,7 +15,7 @@ inputs:
   restore_pre_args:
     description: 'Pre argument'
     required: true
-    default: '-Fc -j 8'
+    default: '-Ft -j8'
 
 runs:
   using: 'composite'
