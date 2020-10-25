@@ -1,5 +1,5 @@
-name: Postgres Backup Restore
-description: Manage a Postgres Backups and Restore
+name: Postgres Restore
+description: Restore from a Postgres Backup
 author: tj-actions
 inputs:
   token:
