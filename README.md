@@ -1,12 +1,12 @@
 postgres-backup-restore
 -----------------------
 
-Manage Restoring a Postgres Backup.
-
-> NOTE: This should ideally be used for sql backups or you'll need to restore the roles required when using `-Fc` | `-Fd` | `-Ft` based backups.
+Manage Restoring a Postgres Backup using psql.
 
 References: 
 - https://www.postgresql.org/docs/9.3/app-pgdump.html
+
+> NOTE: This only supports sql backups.
 
 
 ### Usage
@@ -37,6 +37,8 @@ Add action to .github/workflows
 |   Input       |    type    |  required     |  default             | 
 |:-------------:|:-----------:|:-------------:|:---------------------:|
 | token         |  `string`   |    `false`    | `${{ github.token }}` |
+| database_url         |  `string`   |    `true`    | `` |
+| backup_file         |  `string`   |    `true`    | `` |
 
 
 

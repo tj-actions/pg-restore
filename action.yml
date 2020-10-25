@@ -12,10 +12,6 @@ inputs:
   backup_file:
     description: 'Backup file name'
     required: true
-  restore_pre_args:
-    description: 'Pre argument'
-    required: true
-    default: '-j8'
 
 runs:
   using: 'composite'
