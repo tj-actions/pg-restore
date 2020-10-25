@@ -15,7 +15,7 @@ References:
 ```shell script
 $ cd [project_root]
 $ mkdir backups
-$ pg_dump -O -s -f backups/backup.sql $DATABASE_URL
+$ pg_dump -O -f backups/backup.sql $DATABASE_URL
 ```
 
 Add action to .github/workflows
