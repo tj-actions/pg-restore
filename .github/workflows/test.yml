@@ -33,4 +33,4 @@ jobs:
         uses: ./
         with:
           database_url: "postgres://test_user:test_user_password@localhost:5432/testdb"
-          backup_file: "backups/backup.dump"
+          backup_file: "backups/backup.sql"
