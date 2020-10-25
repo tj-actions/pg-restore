@@ -25,7 +25,7 @@ Add action to .github/workflows
     steps:
       - uses: actions/checkout@v2
       - name: Postgres Backup Restore
-        uses: tj-actions/postgres-restore@v1
+        uses: tj-actions/postgres-restore@v2
         with:
           database_url: "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB"
           backup_file: "backups/backup.sql"
