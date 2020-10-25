@@ -1,7 +1,7 @@
 postgres-restore
 -----------------------
 
-Manage Restoring a Postgres Backup using psql.
+Restore a postgres service container using a sql backup file with psql.
 
 References: 
 - https://www.postgresql.org/docs/9.3/app-pgdump.html
@@ -15,7 +15,7 @@ References:
 ```shell script
 $ cd [project_root]
 $ mkdir backups
-$ pg_dump -O -s -f backups/backup.sql $DATABASE_URL
+$ pg_dump -O -f backups/backup.sql $DATABASE_URL
 ```
 
 Add action to .github/workflows
@@ -27,8 +27,14 @@ Add action to .github/workflows
       - name: Postgres Backup Restore
         uses: tj-actions/postgres-restore@v1
         with:
-          database_url: "postgres://test_user:test_user_password@localhost:5432/testdb"
+          database_url: "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB"
           backup_file: "backups/backup.sql"
+        env:
+          POSTGRES_USER: "test_user"
+          POSTGRES_PASSWORD: "test_user_password"
+          POSTGRES_HOST: "localhost"
+          POSTGRES_PORT: 5432
+          POSTGRES_DB: "test_db"
 ```
 
 
@@ -37,17 +43,12 @@ Add action to .github/workflows
 |   Input       |    type    |  required     |  default             | 
 |:-------------:|:-----------:|:-------------:|:---------------------:|
 | token         |  `string`   |    `false`    | `${{ github.token }}` |
-| database_url         |  `string`   |    `true`    | `` |
-| backup_file         |  `string`   |    `true`    | `` |
+| database_url         |  `string`   |    `true`    |  |
+| backup_file         |  `string`   |    `true`    |  |
 
 
 
 * Free software: [MIT license](LICENSE)
-
-Features
---------
-
-* TODO
 
 
 Credits
