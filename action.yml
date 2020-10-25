@@ -15,7 +15,7 @@ inputs:
   restore_pre_args:
     description: 'Pre argument'
     required: true
-    default: '-Fc -j 8 --section=data --section=post-data'
+    default: '-Fc -j 8'
 
 runs:
   using: 'composite'
