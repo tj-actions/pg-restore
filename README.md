@@ -1,7 +1,7 @@
 postgres-restore
 -----------------------
 
-Manage Restoring a Postgres Backup using psql.
+Restore a postgres service container using a sql backup file with psql.
 
 References: 
 - https://www.postgresql.org/docs/9.3/app-pgdump.html
@@ -43,11 +43,6 @@ Add action to .github/workflows
 
 
 * Free software: [MIT license](LICENSE)
-
-Features
---------
-
-* Restore a sql backup using psql.
 
 
 Credits
