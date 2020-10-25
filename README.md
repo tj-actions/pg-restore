@@ -27,8 +27,14 @@ Add action to .github/workflows
       - name: Postgres Backup Restore
         uses: tj-actions/postgres-restore@v1
         with:
-          database_url: "postgres://test_user:test_user_password@localhost:5432/testdb"
+          database_url: "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB"
           backup_file: "backups/backup.sql"
+        env:
+          POSTGRES_USER: "test_user"
+          POSTGRES_PASSWORD: "test_user_password"
+          POSTGRES_HOST: "localhost"
+          POSTGRES_PORT: 5432
+          POSTGRES_DB: "test_db"
 ```
 
 
