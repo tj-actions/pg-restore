@@ -36,7 +36,6 @@ Add action to .github/workflows
 
 |   Input       |    type    |  required     |  default             | 
 |:-------------:|:-----------:|:-------------:|:---------------------:|
-| token         |  `string`   |    `false`    | `${{ github.token }}` |
 | database_url         |  `string`   |    `true`    |  |
 | backup_file         |  `string`   |    `true`    |  |
 
