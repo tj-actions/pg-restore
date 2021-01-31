@@ -2,10 +2,6 @@ name: Postgres Restore from Backup
 description: Restore from a Postgres Backup
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
   database_url:
     description: 'Database URL'
     required: true
