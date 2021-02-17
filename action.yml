@@ -17,4 +17,4 @@ runs:
       shell: bash
 branding:
   icon: hard-drive
-  color: green
+  color: white
