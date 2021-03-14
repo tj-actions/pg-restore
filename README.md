@@ -1,5 +1,7 @@
+[![CI](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml)
+
 postgres-restore
------------------------
+----------------
 
 Restore a postgres service container using a sql backup file with psql.
 
