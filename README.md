@@ -1,12 +1,9 @@
 [![CI](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml)
 
-pg-restore
-----------
+[pg-restore](https://www.postgresql.org/docs/9.3/app-pgdump.html)
+------------
 
 Restore a postgres service container using a sql backup file with psql.
-
-References: 
-- https://www.postgresql.org/docs/9.3/app-pgdump.html
 
 > NOTE: This only supports sql backups.
 
