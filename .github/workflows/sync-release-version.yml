@@ -13,7 +13,7 @@ jobs:
         uses: tj-actions/bumpversion@v7.1
         id: bumpversion
         with:
-          pattern: 'tj-actions/postgres-restore@'
+          pattern: 'tj-actions/pg-restore@'
           paths: |
             README.md
       - name: Create Pull Request
