@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Bumpversion release version.
-        uses: tj-actions/bumpversion@v8.4
+        uses: tj-actions/bumpversion@v8.5
         id: bumpversion
         with:
           pattern: 'tj-actions/pg-restore@'
