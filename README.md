@@ -1,7 +1,7 @@
 [![CI](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml)
 
-postgres-restore
-----------------
+pg-restore
+----------
 
 Restore a postgres service container using a sql backup file with psql.
 
@@ -27,7 +27,7 @@ Add action to .github/workflows
     steps:
       - uses: actions/checkout@v2
       - name: Postgres Backup Restore
-        uses: tj-actions/postgres-restore@v4.5
+        uses: tj-actions/pg-restore@v4.5
         with:
           database_url: "postgres://test_user:test_password@localhost:5432/test_db"
           backup_file: "backups/backup.sql"
