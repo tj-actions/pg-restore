@@ -1,4 +1,4 @@
-* postgres-restore:
+* pg-restore:
 
 ### Description
 
