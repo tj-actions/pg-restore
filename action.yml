@@ -1,4 +1,4 @@
-name: Postgres Restore from Backup
+name: Postgres Restore from SQL Backup
 description: Restore from a Postgres Backup
 author: tj-actions
 inputs:
