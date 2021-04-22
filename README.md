@@ -17,6 +17,8 @@ $ mkdir backups
 $ pg_dump -O -f backups/backup.sql $DATABASE_URL
 ```
 
+See: https://github.com/tj-actions/pg-dump
+
 Add action to .github/workflows
 
 ```yaml
