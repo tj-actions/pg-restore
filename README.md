@@ -35,8 +35,8 @@ Add action to .github/workflows
 
 |   Input       |    type    |  required     |  default             |
 |:-------------:|:-----------:|:-------------:|:---------------------:|
-| database_url         |  `string`   |    `true`    |  |
-| backup_file         |  `string`   |    `true`    |  |
+| database\_url         |  `string`   |    `true`    |  |
+| backup\_file         |  `string`   |    `true`    |  |
 
 *   Free software: [MIT license](LICENSE)
 
