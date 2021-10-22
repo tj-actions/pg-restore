@@ -8,12 +8,15 @@ inputs:
   backup_file:
     description: 'Backup file name'
     required: true
+  options:
+    description: 'Extra options to pass directly to psql'
+    required: false
 
 runs:
   using: 'composite'
   steps:
     - run: |
-        psql -d "${{ inputs.database_url }}" < "${{ inputs.backup_file }}"
+        psql ${{ inputs.options }} -d "${{ inputs.database_url }}" < "${{ inputs.backup_file }}"
       shell: bash
 branding:
   icon: hard-drive
