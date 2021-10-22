@@ -1,6 +1,6 @@
 [![CI](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/pg-restore/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fpg-restore%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+pg-restore+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
-## [pg-restore](https://www.postgresql.org/docs/9.3/app-pgdump.html)
+## [pg-restore](https://www.postgresql.org/docs/9.3/app-pgrestore.html)
 
 Restore a postgres service container using a sql backup file with psql.
 
