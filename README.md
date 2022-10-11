@@ -34,10 +34,15 @@ Add action to .github/workflows
 
 ## Inputs
 
-|   Input       |    type    |  required     |  default             |
-|:-------------:|:-----------:|:-------------:|:---------------------:|
-| database\_url         |  `string`   |    `true`    |  |
-| backup\_file         |  `string`   |    `true`    |  |
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|    INPUT     |  TYPE  | REQUIRED | DEFAULT |                DESCRIPTION                |
+|--------------|--------|----------|---------|-------------------------------------------|
+| backup\_file  | string | true     |         | Backup file name                          |
+| database\_url | string | true     |         | Database URL                              |
+| options      | string | false    |         | Extra options to pass directly<br>to psql |
+
+<!-- AUTO-DOC-INPUT:END -->
 
 *   Free software: [MIT license](LICENSE)
 
