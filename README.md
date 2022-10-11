@@ -44,11 +44,6 @@ Add action to .github/workflows
 
 <!-- AUTO-DOC-INPUT:END -->
 
-|   Input       |    type    |  required     |  default             |
-|:-------------:|:-----------:|:-------------:|:---------------------:|
-| database\_url         |  `string`   |    `true`    |  |
-| backup\_file         |  `string`   |    `true`    |  |
-
 *   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
