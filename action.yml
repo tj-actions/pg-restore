@@ -16,6 +16,7 @@ runs:
   using: 'composite'
   steps:
     - run: |
+        psql --version
         psql ${{ inputs.options }} -d "${{ inputs.database_url }}" < "${{ inputs.backup_file }}"
       shell: bash
 branding:
