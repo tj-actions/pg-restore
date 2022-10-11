@@ -1,12 +1,24 @@
 # Changelog
 
-## [v4.6](https://github.com/tj-actions/pg-restore/tree/v4.6) (2022-10-11)
+## [v4.7](https://github.com/tj-actions/pg-restore/tree/v4.7) (2022-10-11)
 
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4...v4.6)
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4...v4.7)
 
 ## [v4](https://github.com/tj-actions/pg-restore/tree/v4) (2022-10-11)
 
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.5...v4)
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.6...v4)
+
+**Fixed bugs:**
+
+- \[BUG\] pg\_restore --clean with github actions not working [\#52](https://github.com/tj-actions/pg-restore/issues/52)
+
+**Merged pull requests:**
+
+- Upgraded to v4.6 [\#65](https://github.com/tj-actions/pg-restore/pull/65) ([jackton1](https://github.com/jackton1))
+
+## [v4.6](https://github.com/tj-actions/pg-restore/tree/v4.6) (2022-10-11)
+
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.5...v4.6)
 
 **Fixed bugs:**
 
