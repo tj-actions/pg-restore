@@ -14,7 +14,7 @@ jobs:
     name: Test pg-restore
     services:
       postgres:
-        image: postgres:14.5
+        image: postgres:15.0
         env:
           POSTGRES_USER: test_user
           POSTGRES_PASSWORD: test_user_password
