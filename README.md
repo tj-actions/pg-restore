@@ -38,9 +38,9 @@ Add action to .github/workflows
 
 |    INPUT     |  TYPE  | REQUIRED | DEFAULT |                DESCRIPTION                |
 |--------------|--------|----------|---------|-------------------------------------------|
-| backup\_file  | string | true     |         | Backup file name                          |
-| database\_url | string | true     |         | Database URL                              |
-| options      | string | false    |         | Extra options to pass directly<br>to psql |
+| backup\_file  | string |   true   |         |             Backup file name              |
+| database\_url | string |   true   |         |               Database URL                |
+|   options    | string |  false   |         | Extra options to pass directly<br>to psql |
 
 <!-- AUTO-DOC-INPUT:END -->
 
