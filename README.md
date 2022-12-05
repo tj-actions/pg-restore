@@ -7,9 +7,9 @@ Restore a postgres service container using a sql backup file with psql.
 
 > NOTE: This only supports sql backups.
 
-### Usage
+### Prerequisite
 
-*   Create a backup using
+Create a backup using
 
 ```shell script
 $ cd [project_root]
@@ -19,7 +19,7 @@ $ pg_dump -O -f backups/backup.sql $DATABASE_URL
 
 See: https://github.com/tj-actions/pg-dump
 
-Add action to .github/workflows
+### Usage
 
 ```yaml
 ...
