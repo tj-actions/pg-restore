@@ -1,12 +1,71 @@
 # Changelog
 
+## [v4](https://github.com/tj-actions/pg-restore/tree/v4) (2023-03-28)
+
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.8...v4)
+
+## [v4.8](https://github.com/tj-actions/pg-restore/tree/v4.8) (2023-03-28)
+
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.7...v4.8)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#6](https://github.com/tj-actions/pg-restore/issues/6)
+
+**Merged pull requests:**
+
+- Bump tj-actions/auto-doc from 2.3.1 to 2.3.2 [\#113](https://github.com/tj-actions/pg-restore/pull/113) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v2.3.1 [\#112](https://github.com/tj-actions/pg-restore/pull/112) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.5.0 [\#111](https://github.com/tj-actions/pg-restore/pull/111) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.3.0 [\#110](https://github.com/tj-actions/pg-restore/pull/110) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.2.6 [\#109](https://github.com/tj-actions/pg-restore/pull/109) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.2.5 [\#108](https://github.com/tj-actions/pg-restore/pull/108) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/auto-doc from 2.2.3 to 2.2.4 [\#107](https://github.com/tj-actions/pg-restore/pull/107) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump tj-actions/verify-changed-files from 13 to 14 [\#106](https://github.com/tj-actions/pg-restore/pull/106) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update actions/checkout action to v3.4.0 [\#105](https://github.com/tj-actions/pg-restore/pull/105) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.4 [\#104](https://github.com/tj-actions/pg-restore/pull/104) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/auto-doc from 2.2.1 to 2.2.3 [\#103](https://github.com/tj-actions/pg-restore/pull/103) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/release-tagger action to v3 [\#102](https://github.com/tj-actions/pg-restore/pull/102) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.2.1 [\#101](https://github.com/tj-actions/pg-restore/pull/101) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.18 [\#100](https://github.com/tj-actions/pg-restore/pull/100) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.2.0 [\#99](https://github.com/tj-actions/pg-restore/pull/99) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2.0.3 [\#98](https://github.com/tj-actions/pg-restore/pull/98) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v2 [\#97](https://github.com/tj-actions/pg-restore/pull/97) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.3.0 [\#96](https://github.com/tj-actions/pg-restore/pull/96) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.6 [\#95](https://github.com/tj-actions/pg-restore/pull/95) ([renovate[bot]](https://github.com/apps/renovate))
+- Update postgres Docker tag to v15.2 [\#94](https://github.com/tj-actions/pg-restore/pull/94) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.7.4 [\#93](https://github.com/tj-actions/pg-restore/pull/93) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.3.0 [\#92](https://github.com/tj-actions/pg-restore/pull/92) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.7.3 [\#91](https://github.com/tj-actions/pg-restore/pull/91) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/auto-doc from 1.7.1 to 1.7.2 [\#90](https://github.com/tj-actions/pg-restore/pull/90) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v1.7.2 [\#89](https://github.com/tj-actions/pg-restore/pull/89) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#88](https://github.com/tj-actions/pg-restore/pull/88) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.7.1 [\#87](https://github.com/tj-actions/pg-restore/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.17 [\#86](https://github.com/tj-actions/pg-restore/pull/86) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#85](https://github.com/tj-actions/pg-restore/pull/85) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/verify-changed-files action to v13 [\#84](https://github.com/tj-actions/pg-restore/pull/84) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.6.0 [\#83](https://github.com/tj-actions/pg-restore/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.8 [\#82](https://github.com/tj-actions/pg-restore/pull/82) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.2.0 [\#81](https://github.com/tj-actions/pg-restore/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.5.0 [\#80](https://github.com/tj-actions/pg-restore/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.3 [\#79](https://github.com/tj-actions/pg-restore/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.2 [\#78](https://github.com/tj-actions/pg-restore/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.1 [\#77](https://github.com/tj-actions/pg-restore/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump hmarr/auto-approve-action from 2 to 3 [\#76](https://github.com/tj-actions/pg-restore/pull/76) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update postgres Docker tag to v15.1 [\#75](https://github.com/tj-actions/pg-restore/pull/75) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.3 [\#74](https://github.com/tj-actions/pg-restore/pull/74) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#73](https://github.com/tj-actions/pg-restore/pull/73) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.2 [\#72](https://github.com/tj-actions/pg-restore/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.0 [\#71](https://github.com/tj-actions/pg-restore/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.5 [\#70](https://github.com/tj-actions/pg-restore/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.4 [\#69](https://github.com/tj-actions/pg-restore/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v12 [\#68](https://github.com/tj-actions/pg-restore/pull/68) ([renovate[bot]](https://github.com/apps/renovate))
+- Update postgres Docker tag to v15 [\#67](https://github.com/tj-actions/pg-restore/pull/67) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4.7 [\#66](https://github.com/tj-actions/pg-restore/pull/66) ([jackton1](https://github.com/jackton1))
+
 ## [v4.7](https://github.com/tj-actions/pg-restore/tree/v4.7) (2022-10-11)
 
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4...v4.7)
-
-## [v4](https://github.com/tj-actions/pg-restore/tree/v4) (2022-10-11)
-
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.6...v4)
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.6...v4.7)
 
 **Fixed bugs:**
 
@@ -23,10 +82,6 @@
 **Fixed bugs:**
 
 - \[BUG\] Why are the arguments in quotes? [\#17](https://github.com/tj-actions/pg-restore/issues/17)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#6](https://github.com/tj-actions/pg-restore/issues/6)
 
 **Merged pull requests:**
 
@@ -90,15 +145,15 @@
 
 ## [v4.5](https://github.com/tj-actions/pg-restore/tree/v4.5) (2021-03-14)
 
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.4...v4.5)
-
-## [v4.4](https://github.com/tj-actions/pg-restore/tree/v4.4) (2021-03-14)
-
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.3...v4.4)
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.3...v4.5)
 
 ## [v4.3](https://github.com/tj-actions/pg-restore/tree/v4.3) (2021-03-14)
 
-[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.2...v4.3)
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.4...v4.3)
+
+## [v4.4](https://github.com/tj-actions/pg-restore/tree/v4.4) (2021-03-14)
+
+[Full Changelog](https://github.com/tj-actions/pg-restore/compare/v4.2...v4.4)
 
 ## [v4.2](https://github.com/tj-actions/pg-restore/tree/v4.2) (2021-03-14)
 
