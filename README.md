@@ -36,11 +36,11 @@ See: https://github.com/tj-actions/pg-dump
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|    INPUT     |  TYPE  | REQUIRED | DEFAULT |                 DESCRIPTION                 |
-|--------------|--------|----------|---------|---------------------------------------------|
-| backup\_file  | string |   true   |         |              Backup file name               |
-| database\_url | string |   true   |         |                Database URL                 |
-|   options    | string |  false   |         | Extra options to pass directly <br>to psql  |
+|                                INPUT                                 |  TYPE  | REQUIRED | DEFAULT |                 DESCRIPTION                 |
+|----------------------------------------------------------------------|--------|----------|---------|---------------------------------------------|
+|  <a name="input_backup_file"></a>[backup\_file](#input_backup_file)   | string |   true   |         |              Backup file name               |
+| <a name="input_database_url"></a>[database\_url](#input_database_url) | string |   true   |         |                Database URL                 |
+|        <a name="input_options"></a>[options](#input_options)         | string |  false   |         | Extra options to pass directly <br>to psql  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
