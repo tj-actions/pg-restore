@@ -1,5 +1,46 @@
 # Changelog
 
+# [5.0](https://github.com/tj-actions/pg-restore/compare/v4.10...v5.0) - (2023-09-12)
+
+## <!-- 0 -->🚀 Features
+
+- Add support for installing a different postgresql version ([#144](https://github.com/tj-actions/pg-restore/issues/144)) ([29e53ce](https://github.com/tj-actions/pg-restore/commit/29e53ce6b2b1b5bab881fe662c47bd2483b96c28))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([9e99d01](https://github.com/tj-actions/pg-restore/commit/9e99d01e932df4d27a2fbada4b3b2bd408507d2b))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([16238ef](https://github.com/tj-actions/pg-restore/commit/16238efee9ef95a43514cc91da2781a516a126d6))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([9f73f1b](https://github.com/tj-actions/pg-restore/commit/9f73f1b074d19c3fb284c5f23c744754ee20399c))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#145](https://github.com/tj-actions/pg-restore/issues/145))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([62d8055](https://github.com/tj-actions/pg-restore/commit/62d80550a84b875232cadc14c27b769f83c202b6))  - (tj-actions[bot])
+- Update actions/checkout action to v4 ([f8bcb92](https://github.com/tj-actions/pg-restore/commit/f8bcb92571f7b43232261c7cda448557fdec65e2))  - (renovate[bot])
+- Update tj-actions/release-tagger action to v4 ([5521c57](https://github.com/tj-actions/pg-restore/commit/5521c5779b548a1152a80d261b03edb7391c7b07))  - (renovate[bot])
+- Update actions/checkout action to v3.6.0 ([394a642](https://github.com/tj-actions/pg-restore/commit/394a642440cc3d916adfad07709f8fa48143964b))  - (renovate[bot])
+- Updated README.md
+ ([f2adf1b](https://github.com/tj-actions/pg-restore/commit/f2adf1b04c42171bc7f8262a49a0e6bf32ce6a89))  - (repo-ranger[bot])
+- Update tj-actions/auto-doc action to v3 ([d9b55d7](https://github.com/tj-actions/pg-restore/commit/d9b55d764be65d306edac1e4f5814cee64e9e9b5))  - (renovate[bot])
+- Updated .github/FUNDING.yml ([d79631c](https://github.com/tj-actions/pg-restore/commit/d79631cd2e89922f5cc82060dc2d6652f64f5204))  - (Tonye Jack)
+- Updated .github/FUNDING.yml ([29bb5a1](https://github.com/tj-actions/pg-restore/commit/29bb5a1b58aa4297891bec127d4f7daf35829a59))  - (Tonye Jack)
+- Update postgres Docker tag to v15.4 ([8bdcc2d](https://github.com/tj-actions/pg-restore/commit/8bdcc2d69cf5cf476cdf44e64951b7a184eb7fd6))  - (renovate[bot])
+- Update tj-actions/auto-doc action to v2.9.0 ([4c994f4](https://github.com/tj-actions/pg-restore/commit/4c994f411861051fbdb093b96d1fd99dff47e000))  - (renovate[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#143](https://github.com/tj-actions/pg-restore/pull/143): actions/checkout action to v4 ([20516b9](https://github.com/tj-actions/pg-restore/commit/20516b9008bd325b684e039f31a0639283b09216))  - (repo-ranger[bot])
+- PR [#142](https://github.com/tj-actions/pg-restore/pull/142): tj-actions/release-tagger action to v4 ([53c1b6d](https://github.com/tj-actions/pg-restore/commit/53c1b6d7f0b42dbf6b5d2c4ad774fb18e72e4c0f))  - (repo-ranger[bot])
+- PR [#140](https://github.com/tj-actions/pg-restore/pull/140): README.md ([6899e1d](https://github.com/tj-actions/pg-restore/commit/6899e1dd03f668e7ff96b64276e64edebebdeaec))  - (repo-ranger[bot])
+- PR [#139](https://github.com/tj-actions/pg-restore/pull/139): tj-actions/auto-doc action to v3 ([1e256e8](https://github.com/tj-actions/pg-restore/commit/1e256e80300b7424e91cf1fad20c0410b11c4372))  - (repo-ranger[bot])
+- PR [#136](https://github.com/tj-actions/pg-restore/pull/136): to v4.10 ([5a1887a](https://github.com/tj-actions/pg-restore/commit/5a1887a77c2c4124c9ef2c2f0d8a413a35d86ab5))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.9 -> v4.10
+ ([a4fcda2](https://github.com/tj-actions/pg-restore/commit/a4fcda29bd0fbb1f4cc14c612f9d0701ae789daf))  - (jackton1)
+
 # [4.10](https://github.com/tj-actions/pg-restore/compare/v4.9...v4.10) - (2023-07-25)
 
 ## <!-- 26 -->🔄 Update
