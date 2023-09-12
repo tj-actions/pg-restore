@@ -9,6 +9,35 @@ on:
       - main
 
 jobs:
+  test-postgresql:
+    name: Test pg-restore with PostgreSQL version
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        postgresql_version: [12, 14, 15]
+    services:
+      postgres:
+        image: postgres:${{ matrix.postgresql_version }}
+        env:
+          POSTGRES_USER: test_user
+          POSTGRES_PASSWORD: test_user_password
+          POSTGRES_DB: testdb
+        ports:
+          - 5432:5432
+        # needed because the postgres container does not provide a healthcheck
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run database backup restore test.
+        uses: ./
+        with:
+          database_url: "postgres://test_user:test_user_password@localhost:5432/testdb"
+          postgresql_version: ${{ matrix.postgresql_version }}
+          backup_file: "backups/backup.sql"
+
   test:
     runs-on: ubuntu-latest
     name: Test pg-restore

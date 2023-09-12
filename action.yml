@@ -11,10 +11,18 @@ inputs:
   options:
     description: 'Extra options to pass directly to psql'
     required: false
+  postgresql_version: 
+    description: 'Version of PostgreSQL. e.g 15'
+    required: false
 
 runs:
   using: 'composite'
   steps:
+    - name: Setup PostgreSQL
+      uses: tj-actions/install-postgresql@v2
+      if: inputs.postgresql_version != ''
+      with:
+        postgresql-version: ${{ inputs.postgresql_version }}
     - run: |
         psql --version
         psql ${{ inputs.options }} -d "${{ inputs.database_url }}" < "${{ inputs.backup_file }}"
