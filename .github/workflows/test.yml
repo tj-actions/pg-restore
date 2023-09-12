@@ -10,7 +10,7 @@ on:
 
 jobs:
   test-postgresql:
-    name: Test pg_dump with PostgreSQL version
+    name: Test pg-restore with PostgreSQL version
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
