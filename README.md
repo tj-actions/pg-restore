@@ -26,7 +26,7 @@ See: https://github.com/tj-actions/pg-dump
     steps:
       - uses: actions/checkout@v2
       - name: Postgres Backup Restore
-        uses: tj-actions/pg-restore@v4.5
+        uses: tj-actions/pg-restore@v5
         with:
           database_url: "postgres://test_user:test_password@localhost:5432/test_db"
           backup_file: "backups/backup.sql"
