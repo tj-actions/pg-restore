@@ -21,6 +21,8 @@ See: https://github.com/tj-actions/pg-dump
 
 ### Usage
 
+### Using the default PostgreSQL installed on the runner
+
 ```yaml
 ...
     steps:
@@ -30,6 +32,20 @@ See: https://github.com/tj-actions/pg-dump
         with:
           database_url: "postgres://test_user:test_password@localhost:5432/test_db"
           backup_file: "backups/backup.sql"
+```
+
+### Using a different PostgreSQL version
+
+```yaml
+...
+    steps:
+      - uses: actions/checkout@v2
+      - name: Postgres Backup Restore
+        uses: tj-actions/pg-restore@v5
+        with:
+          database_url: "postgres://test_user:test_password@localhost:5432/test_db"
+          backup_file: "backups/backup.sql"
+          postgresql_version: "15"  # Note: Only the major version is required e.g. 12, 14, 15
 ```
 
 ## Inputs
