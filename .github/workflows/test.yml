@@ -43,7 +43,7 @@ jobs:
     name: Test pg-restore
     services:
       postgres:
-        image: postgres:16.0
+        image: postgres:16.1
         env:
           POSTGRES_USER: test_user
           POSTGRES_PASSWORD: test_user_password
