@@ -5,7 +5,8 @@
 
 Restore a postgres service container using a sql backup file with psql.
 
-> NOTE: This only supports sql backups.
+> [!NOTE]
+> * This only supports sql backups.
 
 ### Prerequisite
 
