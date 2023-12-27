@@ -77,6 +77,8 @@ If you feel generous and want to show some extra appreciation:
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
+* [install-postgresql](https://github.com/tj-actions/install-postgresql)
+
 ## Report Bugs
 
 Report bugs at https://github.com/tj-actions/pg-restore/issues.
