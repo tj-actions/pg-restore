@@ -1,5 +1,55 @@
 # Changelog
 
+# [6.0](https://github.com/tj-actions/pg-restore/compare/v5.0...v6.0) - (2024-01-04)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/auto-approve.yml ([7a48d9a](https://github.com/tj-actions/pg-restore/commit/7a48d9ab76d09183eff9f29eca57c736a109a6f4))  - (Tonye Jack)
+- Deleted .github/workflows/greetings.yml ([c2497a1](https://github.com/tj-actions/pg-restore/commit/c2497a1b97bd83b990eba0d1c504eea58e99cd29))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([880424a](https://github.com/tj-actions/pg-restore/commit/880424a40dc6ae050f89f70a2d4afffb329d0cb0))  - (jackton1)
+- Update README.md ([3e9a7f8](https://github.com/tj-actions/pg-restore/commit/3e9a7f84d18012ec2c24990605af5e0dbd47d737))  - (Tonye Jack)
+- Updated README.md
+ ([e93ec90](https://github.com/tj-actions/pg-restore/commit/e93ec901ead35b2514ed2d008f7bea20e3a88ba7))  - (jackton1)
+- Update README.md ([a1b7cc3](https://github.com/tj-actions/pg-restore/commit/a1b7cc3ba67cd1df646b13ee1b20b3a075d0e154))  - (Tonye Jack)
+- Update README.md ([46d2d32](https://github.com/tj-actions/pg-restore/commit/46d2d32f361b32caa350e4c451172b7db95f9ba6))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#164](https://github.com/tj-actions/pg-restore/pull/164): update tj-actions/verify-changed-files action to v17 ([9d1d674](https://github.com/tj-actions/pg-restore/commit/9d1d674f6147a7c17c74a45a6dcb387e49705661))  - (repo-ranger[bot])
+- PR [#163](https://github.com/tj-actions/pg-restore/pull/163): README.md ([7999cb6](https://github.com/tj-actions/pg-restore/commit/7999cb640845a97ffd53ba7527dcdd733066f46e))  - (repo-ranger[bot])
+- PR [#162](https://github.com/tj-actions/pg-restore/pull/162): update github/codeql-action action to v3 ([4b0b82c](https://github.com/tj-actions/pg-restore/commit/4b0b82cfc70d46ebf5c952b934b59df8fbc6aa7e))  - (repo-ranger[bot])
+- PR [#161](https://github.com/tj-actions/pg-restore/pull/161): update tj-actions/install-postgresql action to v3 ([9eaaaaf](https://github.com/tj-actions/pg-restore/commit/9eaaaaf48e7340456e0fa0dad0a9112c11564b59))  - (repo-ranger[bot])
+- PR [#159](https://github.com/tj-actions/pg-restore/pull/159): README.md ([52c7e21](https://github.com/tj-actions/pg-restore/commit/52c7e21c472e25d4c51a538d57c0692d0415e522))  - (repo-ranger[bot])
+- PR [#148](https://github.com/tj-actions/pg-restore/pull/148): update postgres docker tag to v16 ([9db98d0](https://github.com/tj-actions/pg-restore/commit/9db98d0db42fc11b0f985b10cf410d9d40368beb))  - (repo-ranger[bot])
+- PR [#146](https://github.com/tj-actions/pg-restore/pull/146): to v5 ([4d264cb](https://github.com/tj-actions/pg-restore/commit/4d264cb4998ed30a32674cf4094d58c9aa78af9d))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/auto-doc action to v3.4.1 ([7ac93da](https://github.com/tj-actions/pg-restore/commit/7ac93da67774277a23b67c31b415760f5bee7441))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([990b625](https://github.com/tj-actions/pg-restore/commit/990b625eee1682787a2b5eb202dae28df5837d14))  - (renovate[bot])
+- **deps:** Update github/codeql-action action to v3 ([27517d0](https://github.com/tj-actions/pg-restore/commit/27517d071fb95c53d3a41889104f0f517ce2bb2f))  - (renovate[bot])
+- **deps:** Update tj-actions/install-postgresql action to v3 ([6fa3922](https://github.com/tj-actions/pg-restore/commit/6fa392202638a5d9021b877c1a74fcb1f833b6b8))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.4.0 ([dc4f198](https://github.com/tj-actions/pg-restore/commit/dc4f1983b6f3844826627b8cf1cd5f61fb5a8c42))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.3.0 ([6d398ef](https://github.com/tj-actions/pg-restore/commit/6d398ef082c196f797a71ef0744cbb5c55b0cb98))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.2.1 ([47993b2](https://github.com/tj-actions/pg-restore/commit/47993b20ab8aae9f4a3411c078559e70b5e8873c))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.2.0 ([6f4b703](https://github.com/tj-actions/pg-restore/commit/6f4b703926fe02695fc8fab2ecf68172643ba9f3))  - (renovate[bot])
+- **deps:** Update postgres docker tag to v16.1 ([c4a4cf8](https://github.com/tj-actions/pg-restore/commit/c4a4cf8b7e8b2a68e45640e721d5960b4c107ff5))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.1.1 ([b8529ea](https://github.com/tj-actions/pg-restore/commit/b8529ea0efee667421005404a7ccdc4ac9eb98ea))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.1 ([261284f](https://github.com/tj-actions/pg-restore/commit/261284f394b117bf6176b1ed595ed811462536aa))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.1.0 ([5414935](https://github.com/tj-actions/pg-restore/commit/5414935c6a5d5775a549dad63f2c1c4f78fb36a6))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.0 ([8048824](https://github.com/tj-actions/pg-restore/commit/8048824173a20685a4d7e477b281bc1679b48e78))  - (renovate[bot])
+- **deps:** Update postgres docker tag to v16 ([cf6a305](https://github.com/tj-actions/pg-restore/commit/cf6a305dad236746de025b5acc569e1105754d68))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.0.1 ([28da50e](https://github.com/tj-actions/pg-restore/commit/28da50e012f1b5e735fb6d4e08e8f1d1c2a06ff2))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.10 -> v5
+ ([cbd2664](https://github.com/tj-actions/pg-restore/commit/cbd26646c4a6be31fb8e1ed6b7ea03f7d351bae1))  - (jackton1)
+
 # [5.0](https://github.com/tj-actions/pg-restore/compare/v4.10...v5.0) - (2023-09-12)
 
 ## <!-- 0 -->🚀 Features
