@@ -28,7 +28,10 @@ See: https://github.com/tj-actions/pg-dump
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      # Checkout the repository
+      - uses: actions/checkout@v4
+
+      # Run pg-restore
       - name: Postgres Backup Restore
         uses: tj-actions/pg-restore@v6
         with:
@@ -41,7 +44,9 @@ See: https://github.com/tj-actions/pg-dump
 ```yaml
 ...
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v2
+      # Run pg-restore
       - name: Postgres Backup Restore
         uses: tj-actions/pg-restore@v6
         with:
