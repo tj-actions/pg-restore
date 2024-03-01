@@ -45,7 +45,7 @@ See: https://github.com/tj-actions/pg-dump
 ...
     steps:
       # Checkout the repository
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       # Run pg-restore
       - name: Postgres Backup Restore
